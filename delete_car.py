@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+print("
+=== УДАЛЕНИЕ АВТО ===")
+=======
 import json
 import os
 
@@ -42,3 +46,5 @@ def delete_car():
 
     print(f"\n✅ Автомобиль успешно удалён!")
     print(f"   {car['brand']} {car['model']} ({car['year']}) — ${car['price']:,}")
+    print("\n=== УДАЛЕНИЕ АВТОМОБИЛЯ ===")
+>>>>>>> a90a3ceac726799774fd16d0221708736d9528dd
