@@ -90,3 +90,4 @@ def edit_car():
     print(f"\n✅ Успешно обновлено!")
     print(f"   {field}: {old_value} → {new_value}")
     print(f"   {car['brand']} {car['model']} ({car['year']}) — ${car['price']:,}")
+    print("\n=== ИЗМЕНЕНИЕ АВТОМОБИЛЯ ===")
