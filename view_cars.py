@@ -1,3 +1,4 @@
+
 import json
 import os
 
@@ -26,3 +27,4 @@ def view_cars():
         print(f"  Год:    {car['year']}")
         print(f"  Цена:   ${car['price']:,}")
     print("─" * 30)
+    main
