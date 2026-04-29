@@ -25,4 +25,5 @@ def view_cars():
         print(f"  Модель: {car['model']}")
         print(f"  Год:    {car['year']}")
         print(f"  Цена:   ${car['price']:,}")
-    print("─" * 30)
+        print("─" * 30)
+        print("\n=== ПРОСМОТР АВТОМОБИЛЕЙ ===")
