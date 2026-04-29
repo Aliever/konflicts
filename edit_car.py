@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+print("
+=== РЕДАКТИРОВАНИЕ АВТО ===")
+=======
 import json
 import os
 
@@ -90,3 +94,5 @@ def edit_car():
     print(f"\n✅ Успешно обновлено!")
     print(f"   {field}: {old_value} → {new_value}")
     print(f"   {car['brand']} {car['model']} ({car['year']}) — ${car['price']:,}")
+    print("\n=== ИЗМЕНЕНИЕ АВТОМОБИЛЯ ===")
+>>>>>>> c10ecfa8bdad8e62bb14d570e2c3b3288ff93064
