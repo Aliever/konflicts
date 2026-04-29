@@ -42,3 +42,4 @@ def delete_car():
 
     print(f"\n✅ Автомобиль успешно удалён!")
     print(f"   {car['brand']} {car['model']} ({car['year']}) — ${car['price']:,}")
+    print("\n=== УДАЛЕНИЕ АВТОМОБИЛЯ ===")
