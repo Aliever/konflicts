@@ -17,7 +17,7 @@ def save_cars(cars):
 
 
 def add_car():
-    print("\n=== ДОБАВЛЕНИЕ НОВОГО АВТОМОБИЛЯ ===")
+    print("\n=== НОВЫЙ АВТОМОБИЛЬ ===")
 
     brand = input("Введите марку (например: Toyota): ").strip()
     if not brand:
