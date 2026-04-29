@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+print("
+=== ДОБАВЛЕНИЕ НОВОГО АВТО ===")
+=======
 import json
 import os
 
@@ -17,7 +21,7 @@ def save_cars(cars):
 
 
 def add_car():
-    print("\n=== ДОБАВИТЬ АВТОМОБИЛЬ ===")
+    print("\n=== НОВЫЙ АВТОМОБИЛЬ ===")
 
     brand = input("Введите марку (например: Toyota): ").strip()
     if not brand:
@@ -57,3 +61,4 @@ def add_car():
     print(f"   Модель: {new_car['model']}")
     print(f"   Год: {new_car['year']}")
     print(f"   Цена: ${new_car['price']:,}")
+>>>>>>> bd783c149e9758a90bab649515881519e43620f2
